@@ -228,6 +228,7 @@ console.log('randomArray', randomArray(5, 0, 10));
 
 function countOccurrences(sequence) {
 	counts = {};
+	// Array.from: convert the string to arrays of characters
 	Array.from(sequence).forEach((elem) => {
 		counts[elem] = (counts[elem] || 0) + 1;
 	});

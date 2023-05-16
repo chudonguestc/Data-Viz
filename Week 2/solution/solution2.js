@@ -1,4 +1,4 @@
-/*
+9/*
 Week 2 lab
 */
 
@@ -54,6 +54,9 @@ let multiply = (...numbers) => {
   }
   return product;
 };
+/*The spread syntax allows an expression to be expanded 
+in places where multiple arguments are expected
+*/
 
 let multiply2 = (...numbers) => {
   return numbers.reduce((a, b) => a * b, 1);
